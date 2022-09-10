@@ -1,0 +1,15 @@
+{
+  "name": "mi-primer-proyecto-node",
+  "version": "1.0.0",
+  "description": "Proyecto de OpenBootcam",
+  "main": "index.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo"
+  ],
+  "author": "Alejandro Emiliano Damian",
+  "license": "ISC"
+}
