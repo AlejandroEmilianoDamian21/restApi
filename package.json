@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "Proyecto de OpenBootcam",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "holamundo"
   ],
   "author": "Alejandro Emiliano Damian",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
