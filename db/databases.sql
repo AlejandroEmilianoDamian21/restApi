@@ -1,5 +1,16 @@
+CREATE DATABASE companydb;
+
 CREATE TABLE employee(
     id INT(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(45) DEFAULT NULL,
     salary INT(5) DEFAULT NULL,
     PRIMARY KEY (id));
+
+CREATE TABLE client (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(45) DEFAULT NULL,
+    buy INT(5) DEFAULT NULL,
+    PRIMARY KEY (id));
+);
+
+-- INSERT INTO employee VALUES()
