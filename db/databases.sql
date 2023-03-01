@@ -14,3 +14,8 @@ CREATE TABLE client (
 );
 
 -- INSERT INTO employee VALUES()
+    INSERT INTO employee VALUES 
+    (1, 'Emiliano' , 1000),
+    (2, 'Maria' , 1000),
+    (3, 'Lautaro' , 1000),
+    (4, 'Joe' , 1000);

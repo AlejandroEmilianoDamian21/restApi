@@ -1,5 +1,7 @@
 import { Router } from "express";
 import { pool } from "../db.js";
+import {Router} from 'express'
+import { ping } from '../controllers/index.controller.js';
 
 const router = Router();
 
@@ -9,3 +11,5 @@ router.get("/ping", async (req, res) => {
 });
 
 export default router;
+router.get('/ping', ping)
+

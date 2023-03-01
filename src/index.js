@@ -9,6 +9,7 @@ const port = 3307;
 app.use(indexRoutes);
 app.use(employeesRoutes);
 app.use(clientRoutes);
+app.use(express.json())
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
